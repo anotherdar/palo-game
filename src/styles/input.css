@@ -2,5 +2,10 @@
 @import "tailwindcss";
 
 body {
+  @apply select-none;
   font-family: 'Pixelify Sans', sans-serif;
+}
+
+button {
+  @apply cursor-pointer;
 }
