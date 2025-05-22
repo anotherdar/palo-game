@@ -23,6 +23,7 @@ const log = document.querySelector('#log');
 // end screen
 const endScreen = document.querySelector('#end-screen');
 const endButton = document.querySelector('#end-button');
+const endMessage = document.querySelector('#end-game-title');
 
 export {
     startScreen,
@@ -32,6 +33,7 @@ export {
     playerHp,
     enemy,
     enemyHp,
+    endMessage,
     attackButton,
     spAttackButton,
     healButton,

@@ -30,7 +30,7 @@
                     <img src="assets/player.png" alt="player" class="w-32 h-32">
                     <div class="health-info">
                         <div class="w-28 h-3 bg-gray-700 rounded-md">
-                            <div id="player-health" class="h-full w-full bg-lime-600 rounded-md"></div>
+                            <div id="player-health" class="transition-all h-full w-full bg-lime-600 rounded-md"></div>
                         </div>
                         <p id="player-hp">100</p>
                     </div>
@@ -40,7 +40,7 @@
                     <img src="assets/enemy.png" alt="enemy" class="w-32 h-32">
                     <div class="health-info">
                         <div class="w-28 h-3 bg-gray-700 rounded-md">
-                            <div id="enemy-health" class="h-full w-full bg-lime-600 rounded-md"></div>
+                            <div id="enemy-health" class="transition-all h-full w-full bg-lime-600 rounded-md"></div>
                         </div>
                         <p id="enemy-hp">100</p>
                     </div>
@@ -50,17 +50,17 @@
             <div class="flex flex-col gap-5 items-center justify-center">
                 <div class="flex gap-5 flex-wrap justify-center">
                     <button
-                        class="transition-all bg-zinc-500 hover:bg-zinc-700 px-4 border-zinc-600 border-4 shadow-[4px_4px_0px_0px] hover:shadow-[2px_2px_0px_0px] shadow-zinc-800 active:shadow-none active:translate-x-0.5 active:translate-y-0.5"
+                        class="transition-all bg-zinc-500 hover:bg-zinc-700 px-4 border-zinc-600 border-4 shadow-[4px_4px_0px_0px] hover:shadow-[2px_2px_0px_0px] shadow-zinc-800 active:shadow-none active:translate-x-0.5 active:translate-y-0.5 disabled:opacity-60 disabled:cursor-not-allowed"
                         id="attack-button">
                         Attack
                     </button>
                     <button
-                        class="transition-all bg-orange-500 hover:bg-orange-700 px-4 border-orange-600 border-4 shadow-[4px_4px_0px_0px] hover:shadow-[2px_2px_0px_0px] shadow-orange-800 active:shadow-none active:translate-x-0.5 active:translate-y-0.5"
+                        class="transition-all bg-orange-500 hover:bg-orange-700 px-4 border-orange-600 border-4 shadow-[4px_4px_0px_0px] hover:shadow-[2px_2px_0px_0px] shadow-orange-800 active:shadow-none active:translate-x-0.5 active:translate-y-0.5 disabled:opacity-60 disabled:cursor-not-allowed"
                         id="sp-attack-button">
                         Special attack
                     </button>
                     <button
-                        class="transition-all bg-lime-500 hover:bg-lime-700 px-4 border-lime-600 border-4 shadow-[4px_4px_0px_0px] hover:shadow-[2px_2px_0px_0px] shadow-lime-800 active:shadow-none active:translate-x-0.5 active:translate-y-0.5"
+                        class="transition-all bg-lime-500 hover:bg-lime-700 px-4 border-lime-600 border-4 shadow-[4px_4px_0px_0px] hover:shadow-[2px_2px_0px_0px] shadow-lime-800 active:shadow-none active:translate-x-0.5 active:translate-y-0.5 disabled:opacity-60 disabled:cursor-not-allowed"
                         id="heal-button">
                         Heal
                     </button>
